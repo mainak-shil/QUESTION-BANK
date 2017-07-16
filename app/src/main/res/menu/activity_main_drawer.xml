@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="Subject 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Retail" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="PDP" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_phonelink_black_24dp"
+            android:title="BCA" />
+       <!-- <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Tools" />  -->
+    </group>
+
+
+      <item android:title="Goto">
+      <menu>
+         <item
+             android:id="@+id/nav_share"
+             android:icon="@drawable/ic_home_black_24dp"
+             android:title="Home" />
+          <!--   <item
+                  android:id="@+id/nav_send"
+                  android:icon="@drawable/ic_menu_send"
+                  android:title="Send via Mail" />
+               </menu>    -->
+      </menu>
+      </item>
+
+  </menu>

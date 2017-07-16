@@ -1,0 +1,12 @@
+Who?
+Barrack Obama
+Manmohan Singh
+Donald Trump
+Narendra Modi
+4
+Which ?
+string
+Float
+interface
+unsigned
+4

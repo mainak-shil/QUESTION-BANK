@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mainak_shil.retail_faq_2.MainContent">
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imageView"
+         android:src="@drawable/logo"
+         android:layout_marginBottom="281dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:scaleType="fitXY"
+         />
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="496dp"
+         android:id="@+id/imageView2"
+         android:src="@drawable/ddu"
+         android:visibility="visible"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:paddingTop="300sp"
+         android:layout_marginBottom="50sp"
+         android:scaleType="fitXY"/>
+
+
+</FrameLayout>
